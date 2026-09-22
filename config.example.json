@@ -1,0 +1,38 @@
+{
+  "image": {
+    "path": "images/umad.png",
+    "dither": true,
+    "threshold": null,
+    "invert": false,
+    "transpose": false,
+    "flip_time": false,
+    "max_symbols": null,
+    "stretch": 1.0,
+    "silence": 0
+  },
+  "grid": {
+    "carriers": 256,
+    "fft_size": 512,
+    "subcarrier_spacing": "10k",
+    "cyclic_prefix": 0.0625,
+    "window": 0.03,
+    "null_dc": true,
+    "phase_seed": 1234
+  },
+  "output": {
+    "path": "out/image_noclip.wv",
+    "format": "wv",
+    "peak": 0.95,
+    "csv_precision": 6,
+    "clip_papr_db": 15,
+    "centre_frequency": "2.45G",
+    "sigmf": true
+  },
+  "diagnostics": {
+    "plot": "out/image_plot.png",
+    "plot_dpi": 130,
+    "plot_dynamic_range": 60,
+    "bitmap": null,
+    "verify": true
+  }
+}

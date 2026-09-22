@@ -1,0 +1,25 @@
+{
+  "extends": "config.example.json",
+
+  "image": {
+    "stretch": 2.0
+  },
+
+  "grid": {
+    "carriers": 256,
+    "fft_size": 512,
+    "subcarrier_spacing": "1k",
+    "line_time": "20ms"
+  },
+
+  "output": {
+    "path": "out/waterfall_stretch.wv",
+    "format": "wv",
+    "marker": true
+  },
+
+  "diagnostics": {
+    "plot": "out/waterfall_plot.png",
+    "verify": true
+  }
+}
