@@ -398,12 +398,6 @@ let the repeat cover only the remainder.
 python docs/make_figures.py
 ```
 
-The figures are built by calling into `bitfall.py` itself, so they cannot drift
-away from what the tool actually produces. `docs/line_time.png` additionally
-simulates an analyser in FFT mode with a peak detector — one waterfall line per
-acquisition window, every FFT inside that window folded in with a max — which is
-precisely why a window holding many symbols shows their union.
-
 ## Hardware test
 
 Real life test: waveform being transmitted from an R&S signal generator,
@@ -411,5 +405,4 @@ and received by a Pluto SDR (LibreSDR):
 
 ![bitfall received on a Pluto SDR](docs/hardwaretest.gif)
 
-Using the waveform described in "Extended example - scs 1 kHz" generated
-using `config.waterfall.json`, which is the default example present in the repo (~15MB waveform)
+Using the example waveform provided.
