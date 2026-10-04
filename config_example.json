@@ -20,13 +20,13 @@
     "phase_seed": 1234
   },
   "output": {
-    "path": "out/image_noclip.wv",
+    "path": "out/waveform_umad.wv",
     "format": "wv",
     "peak": 0.95,
     "csv_precision": 6,
     "clip_papr_db": 15,
     "centre_frequency": "2.45G",
-    "sigmf": true
+    "sigmf": false
   },
   "diagnostics": {
     "plot": "out/image_plot.png",
